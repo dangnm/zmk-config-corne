@@ -39,8 +39,8 @@ layers:
   - ''
   - ''
   - {t: TAB, h: nums_shortcuts}
-  - {t: ENTER, h: extended}
-  - {t: SPACE, h: Sft+AGr+Ctl+Gui+ RALT}
+  - {t: SPACE, h: extended}
+  - {t: ENTER, h: Sft+AGr+Ctl+Gui+ RALT}
   - {t: ESCAPE, h: symbols_nav}
   - ''
   symbols_nav:
@@ -135,7 +135,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - BT CLR ALL
   - ''
   - F7
   - F8
