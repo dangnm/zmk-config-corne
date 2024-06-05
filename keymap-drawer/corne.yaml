@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   base:
-  - ''
+  - TAB
   - Q
   - W
   - E
@@ -13,19 +13,19 @@ layers:
   - O
   - P
   - ''
-  - ''
-  - {t: A, h: LCTRL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT GUI}
-  - {t: F, h: LEFT SHIFT}
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: LEFT SHIFT}
-  - {t: K, h: LGUI}
-  - {t: L, h: LALT}
+  - J
+  - K
+  - L
   - {t: ;, h: LCTRL}
   - ''
-  - ''
+  - LCTRL
   - Z
   - X
   - C
