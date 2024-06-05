@@ -28,10 +28,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-&lt 1 TAB       &kp Q  &kp W  &kp E    &kp R      &kp T            &kp Y                         &kp U        &kp I      &kp O    &kp P                &lt 3 ESC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D    &kp F      &kp G            &kp H                         &kp J        &kp K      &kp L    &mt LCTRL SEMICOLON  &none
-&kp LCTRL       &kp Z  &kp X  &kp C    &kp V      &kp B            &kp N                         &kp M        &kp COMMA  &kp DOT  &kp SLASH            &tog 2
-                              &kp ESC  &kp SPACE  &kp BACKSPACE    &mt RS(RA(RC(RG(RALT)))) TAB  &lt 1 ENTER  &tog 1
+&lt 1 TAB       &kp Q  &kp W  &kp E    &kp R      &kp T            &kp Y                         &kp U        &kp I            &kp O    &kp P                &lt 3 ESC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D    &kp F      &kp G            &kp H                         &kp J        &kp K            &kp L    &mt LCTRL SEMICOLON  &lt 1 ENTER
+&kp LCTRL       &kp Z  &kp X  &kp C    &kp V      &kp B            &kp N                         &kp M        &kp COMMA        &kp DOT  &kp SLASH            &lt 2 RIGHT_CONTROL
+                              &kp ESC  &kp SPACE  &kp BACKSPACE    &mt RS(RA(RC(RG(RALT)))) TAB  &lt 1 ENTER  &lt 1 RIGHT_ALT
             >;
         };
 
@@ -58,9 +58,9 @@
         extended_layer {
             label = "EXT";
             bindings = <
-&none  &kp K_PLAY_PAUSE  &none         &none         &none         &bt BT_CLR_ALL    &none                 &kp F7  &kp F8  &kp F9  &none  &none
-&none  &kp K_PREV        &kp K_NEXT    &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP      &kp C_BRIGHTNESS_INC  &kp F4  &kp F5  &kp F6  &none  &none
-&none  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp C_BRIGHTNESS_DEC  &kp F1  &kp F2  &kp F3  &none  &none
+&none  &kp K_PLAY_PAUSE  &none         &none         &none         &bt BT_CLR_ALL    &none                 &kp F7  &kp F8  &kp F9  &none   &tog 0
+&none  &kp K_PREV        &kp K_NEXT    &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP      &kp C_BRIGHTNESS_INC  &kp F4  &kp F5  &kp F6  &none   &tog 3
+&none  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp C_BRIGHTNESS_DEC  &kp F1  &kp F2  &kp F3  &tog 0  &tog 0
                                        &none         &none         &none             &none                 &none   &none
             >;
         };
