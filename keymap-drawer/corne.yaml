@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   base:
-  - TAB
+  - {t: TAB, h: symbols_nav}
   - Q
   - W
   - E
@@ -36,15 +36,15 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - {t: nums_shortcuts, h: toggle}
   - ESC
-  - {t: SPACE, h: nums_shortcuts}
+  - SPACE
   - BACKSPACE
   - {t: TAB, h: Sft+AGr+Ctl+Gui+ RALT}
   - {t: ENTER, h: symbols_nav}
-  - ''
+  - {t: symbols_nav, h: toggle}
   symbols_nav:
-  - ''
+  - {type: held}
   - '!'
   - '@'
   - '{'
@@ -57,7 +57,7 @@ layers:
   - '*'
   - ''
   - ''
-  - '!'
+  - '#'
   - $
   - (
   - )
@@ -84,32 +84,32 @@ layers:
   - LALT
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   nums_shortcuts:
   - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - ''
-  - ''
-  - ''
-  - Gui+Sft+ SPACE
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
+  - '1'
+  - '2'
+  - '3'
   - '4'
   - '5'
   - '6'
+  - '7'
+  - '8'
+  - '9'
+  - F11
+  - F12
   - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - ''
   - {t: ▽, type: trans}
   - Gui+Alt+ Z
@@ -124,7 +124,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - Gui+ SPACE
   - ''
