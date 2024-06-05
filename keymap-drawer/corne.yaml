@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - {t: ESC, h: extended}
   - LEFT SHIFT
   - A
   - S
@@ -39,7 +39,7 @@ layers:
   - ''
   - ESC
   - {t: SPACE, h: nums_shortcuts}
-  - {t: BACKSPACE, h: extended}
+  - BACKSPACE
   - {t: TAB, h: Sft+AGr+Ctl+Gui+ RALT}
   - {t: ENTER, h: symbols_nav}
   - ''
@@ -141,7 +141,7 @@ layers:
   - F8
   - F9
   - ''
-  - ''
+  - {type: held}
   - ''
   - PREV
   - NEXT
@@ -168,7 +168,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
