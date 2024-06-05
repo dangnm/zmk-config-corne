@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - {t: ;, h: LCTRL}
-  - ''
+  - {t: ENTER, h: symbols_nav}
   - LCTRL
   - Z
   - X
@@ -36,13 +36,13 @@ layers:
   - ','
   - .
   - /
-  - {t: nums_shortcuts, h: toggle}
+  - {t: RIGHT CONTROL, h: nums_shortcuts}
   - ESC
   - SPACE
   - BACKSPACE
   - {t: TAB, h: Sft+AGr+Ctl+Gui+ RALT}
   - {t: ENTER, h: symbols_nav}
-  - {t: symbols_nav, h: toggle}
+  - {t: RIGHT ALT, h: symbols_nav}
   symbols_nav:
   - {type: held}
   - '!'
@@ -122,7 +122,7 @@ layers:
   - '2'
   - '3'
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -141,7 +141,7 @@ layers:
   - F8
   - F9
   - ''
-  - {type: held}
+  - {t: base, h: toggle, type: held}
   - ''
   - PREV
   - NEXT
@@ -153,7 +153,7 @@ layers:
   - F5
   - F6
   - ''
-  - ''
+  - {t: extended, h: toggle}
   - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -164,8 +164,8 @@ layers:
   - F1
   - F2
   - F3
-  - ''
-  - ''
+  - {t: base, h: toggle}
+  - {t: base, h: toggle}
   - ''
   - ''
   - ''
