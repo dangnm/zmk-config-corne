@@ -37,11 +37,11 @@ layers:
   - .
   - /
   - ''
-  - ''
-  - {t: TAB, h: nums_shortcuts}
-  - {t: SPACE, h: extended}
-  - {t: ENTER, h: Sft+AGr+Ctl+Gui+ RALT}
-  - {t: ESCAPE, h: symbols_nav}
+  - ESC
+  - {t: SPACE, h: nums_shortcuts}
+  - {t: BACKSPACE, h: extended}
+  - {t: TAB, h: Sft+AGr+Ctl+Gui+ RALT}
+  - {t: ENTER, h: symbols_nav}
   - ''
   symbols_nav:
   - ''
