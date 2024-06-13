@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: ESC, h: extended}
-  - LEFT SHIFT
+  - LEFT CONTROL
   - A
   - S
   - D
@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - {t: ;, h: LCTRL}
-  - {t: ENTER, h: symbols_nav}
-  - LCTRL
+  - {t: '''', h: symbols_nav}
+  - LEFT SHIFT
   - Z
   - X
   - C
