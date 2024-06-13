@@ -56,7 +56,7 @@ layers:
   - _
   - '*'
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - '#'
   - $
   - (
@@ -68,7 +68,7 @@ layers:
   - RIGHT ARROW
   - BACKSPACE
   - {t: '''', h: extended}
-  - ''
+  - LEFT SHIFT
   - '%'
   - ^
   - '['
@@ -80,12 +80,12 @@ layers:
   - '"'
   - ''
   - ''
-  - ''
-  - LALT
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   nums_shortcuts:
   - ''
   - '1'
@@ -99,7 +99,7 @@ layers:
   - '9'
   - F11
   - F12
-  - ''
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -118,17 +118,17 @@ layers:
   - Gui+ V
   - ''
   - ''
-  - '1'
-  - '2'
-  - '3'
-  - {t: base, h: toggle}
+  - {t: ▽, type: trans}
+  - ','
+  - .
+  - /
   - {t: extended, h: toggle, type: held}
-  - ''
+  - {t: ▽, type: trans}
   - SPACE
   - BACKSPACE
   - Gui+ SPACE
   - ENTER
-  - ''
+  - {t: ▽, type: trans}
   extended:
   - {t: base, h: toggle}
   - PLAY PAUSE
