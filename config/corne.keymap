@@ -38,20 +38,20 @@
         symbols_nav_layer {
             label = "SYMBOLS";
             bindings = <
-&none  &kp EXCLAMATION  &kp AT_SIGN  &kp LBRC              &kp RIGHT_BRACE        &kp PIPE     &kp EQUAL      &kp PLUS              &kp MINUS     &kp UNDERSCORE     &kp ASTERISK   &none
-&none  &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE    &kp LEFT       &kp DOWN_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW    &kp BACKSPACE  &lt 3 SQT
-&none  &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE    &kp AMPERSAND  &kp NON_US_BACKSLASH  &kp SQT       &kp DOUBLE_QUOTES  &none          &none
-                                     &none                 &kp LALT               &none        &none          &none                 &none
+&none           &kp EXCLAMATION  &kp AT_SIGN  &kp LBRC              &kp RIGHT_BRACE        &kp PIPE     &kp EQUAL      &kp PLUS              &kp MINUS     &kp UNDERSCORE     &kp ASTERISK   &none
+&trans          &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE    &kp LEFT       &kp DOWN_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW    &kp BACKSPACE  &lt 3 SQT
+&kp LEFT_SHIFT  &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE    &kp AMPERSAND  &kp NON_US_BACKSLASH  &kp SQT       &kp DOUBLE_QUOTES  &none          &none
+                                              &trans                &trans                 &trans       &trans         &trans                &trans
             >;
         };
 
         nums_shortcuts_layer {
             label = "NAV";
             bindings = <
-&none   &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6   &kp N7        &kp N8        &kp N9        &kp F11  &kp F12
-&none   &kp F1         &kp F2        &kp F3        &kp F4        &kp F5           &kp F6         &kp F7        &kp F8        &kp F9        &kp F10  &lt 3 SQT
-&trans  &kp LG(LA(Z))  &kp LG(X)     &kp LG(C)     &kp LG(V)     &none            &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &to 0    &tog 3
-                                     &none         &kp SPACE     &kp BACKSPACE    &kp LG(SPACE)  &kp ENTER     &none
+&none   &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6   &kp N7     &kp N8     &kp N9      &kp F11    &kp F12
+&trans  &kp F1         &kp F2        &kp F3        &kp F4        &kp F5           &kp F6         &kp F7     &kp F8     &kp F9      &kp F10    &lt 3 SQT
+&trans  &kp LG(LA(Z))  &kp LG(X)     &kp LG(C)     &kp LG(V)     &none            &none          &trans     &kp COMMA  &kp PERIOD  &kp SLASH  &tog 3
+                                     &trans        &kp SPACE     &kp BACKSPACE    &kp LG(SPACE)  &kp ENTER  &trans
             >;
         };
 
