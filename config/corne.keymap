@@ -48,10 +48,10 @@
         nums_shortcuts_layer {
             label = "NAV";
             bindings = <
-&none         &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6   &kp N7     &kp N8           &kp N9      &kp N0     &kp F11
-&trans        &kp F1         &kp F2        &kp F3        &kp F4        &kp F5           &kp F6         &kp F7     &kp F8           &kp F9      &lt 3 F10  &lt 2 SQT
-&kp CAPSLOCK  &kp LG(LA(Z))  &kp LG(X)     &kp LG(C)     &kp LG(V)     &none            &kp F11        &kp F12    &kp COMMA        &kp PERIOD  &kp SLASH  &trans
-                                           &trans        &kp SPACE     &kp BACKSPACE    &kp LG(SPACE)  &kp ENTER  &lt 1 RIGHT_ALT
+&none   &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6   &kp N7     &kp N8           &kp N9      &kp N0     &kp F11
+&trans  &kp F1         &kp F2        &kp F3        &kp F4        &kp F5           &kp F6         &kp F7     &kp F8           &kp F9      &lt 3 F10  &lt 2 SQT
+&trans  &kp LG(LA(Z))  &kp LG(X)     &kp LG(C)     &kp LG(V)     &none            &kp F11        &kp F12    &kp COMMA        &kp PERIOD  &kp SLASH  &kp CAPSLOCK
+                                     &trans        &kp SPACE     &kp BACKSPACE    &kp LG(SPACE)  &kp ENTER  &lt 1 RIGHT_ALT
             >;
         };
 
