@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, h: LCTRL}
   - {t: '''', h: nums_shortcuts}
-  - LEFT SHIFT
+  - ESCAPE
   - Z
   - X
   - C
