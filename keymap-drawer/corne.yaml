@@ -135,8 +135,8 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR ALL
-  - ''
+  - BT CLR
+  - BT CLR
   - F7
   - F8
   - F9
