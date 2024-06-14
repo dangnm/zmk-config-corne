@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   base:
-  - {t: TAB, h: nums_shortcuts}
+  - ESC
   - Q
   - W
   - E
@@ -12,9 +12,9 @@ layers:
   - I
   - O
   - P
-  - {t: ESC, h: symbols_nav}
+  - BACKSPACE
   - LEFT CONTROL
-  - A
+  - {t: A, h: nums_shortcuts}
   - S
   - D
   - F
@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: LCTRL}
+  - {t: ;, h: nums_shortcuts}
   - {t: '''', h: nums_shortcuts}
   - LEFT SHIFT
   - Z
@@ -38,11 +38,11 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT COMMAND
+  - {t: TAB, h: symbols_nav}
   - SPACE
-  - BACKSPACE
-  - {t: TAB, h: Sft+AGr+Ctl+Gui+ RALT}
-  - {t: ENTER, h: symbols_nav}
-  - {t: RIGHT ALT, h: symbols_nav}
+  - ENTER
+  - {t: BACKSPACE, h: symbols_nav}
+  - RIGHT ALT
   symbols_nav:
   - {t: ▽, type: trans}
   - '!'
@@ -55,7 +55,7 @@ layers:
   - '-'
   - _
   - '*'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '#'
   - $
@@ -66,7 +66,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - /
+  - {t: ':', h: nums_shortcuts}
   - {t: '''', h: nums_shortcuts}
   - LEFT SHIFT
   - '%'
@@ -81,13 +81,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - RIGHT ALT
   nums_shortcuts:
-  - {t: TAB, type: held}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -98,9 +98,9 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F11
   - {t: ▽, type: trans}
-  - F1
+  - {t: ▽, type: trans}
+  - {t: F1, h: A, type: held}
   - F2
   - F3
   - F4
@@ -109,8 +109,8 @@ layers:
   - F7
   - F8
   - F9
-  - {t: F10, h: extended}
-  - {t: '''', h: nums_shortcuts}
+  - {t: F10, h: nums_shortcuts}
+  - {t: '''', h: extended}
   - {t: ▽, type: trans}
   - Gui+Alt+ Z
   - Gui+ X
@@ -124,13 +124,13 @@ layers:
   - /
   - CAPSLOCK
   - {t: ▽, type: trans}
-  - SPACE
-  - BACKSPACE
-  - Gui+ SPACE
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - RIGHT ALT
   extended:
-  - {t: base, h: toggle, type: held}
+  - {t: base, h: toggle}
   - PLAY PAUSE
   - ''
   - ''
@@ -143,7 +143,7 @@ layers:
   - ''
   - {t: base, h: toggle}
   - {t: symbols_nav, h: toggle}
-  - PREV
+  - {t: PREV, type: held}
   - NEXT
   - MUTE
   - VOL DN
@@ -152,8 +152,8 @@ layers:
   - F4
   - F5
   - F6
-  - {type: held}
-  - {t: '''', h: nums_shortcuts}
+  - {t: ;, h: nums_shortcuts}
+  - {t: '''', h: extended, type: held}
   - {t: nums_shortcuts, h: toggle}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
