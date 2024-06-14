@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, h: LCTRL}
   - {t: '''', h: nums_shortcuts}
-  - ESCAPE
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - BACKSPACE
   - {t: TAB, h: Sft+AGr+Ctl+Gui+ RALT}
   - {t: ENTER, h: symbols_nav}
-  - RIGHT ALT
+  - {t: RIGHT ALT, h: symbols_nav}
   symbols_nav:
   - {t: ▽, type: trans}
   - '!'
@@ -85,9 +85,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
   nums_shortcuts:
-  - {type: held}
+  - {t: TAB, type: held}
   - '1'
   - '2'
   - '3'
@@ -128,7 +128,7 @@ layers:
   - BACKSPACE
   - Gui+ SPACE
   - ENTER
-  - {t: RIGHT ALT, h: symbols_nav}
+  - RIGHT ALT
   extended:
   - {t: base, h: toggle, type: held}
   - PLAY PAUSE
