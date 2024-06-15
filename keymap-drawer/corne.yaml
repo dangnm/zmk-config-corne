@@ -136,7 +136,7 @@ layers:
   - ''
   - ''
   - BT CLR
-  - BT CLR
+  - '&soft_off'
   - F7
   - F8
   - F9
