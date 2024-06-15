@@ -50,10 +50,10 @@
         nums_shortcuts_layer {
             label = "L2";
             bindings = <
-&trans  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7   &kp N8         &kp N9      &kp N0     &trans
-&trans  &mt A F1       &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7   &kp F8         &kp F9      &lt 2 F10  &lt 3 SQT
-&trans  &kp LG(LA(Z))  &kp LG(X)     &kp LG(C)     &kp LG(V)     &none           &kp F11       &kp F12  &kp COMMA      &kp PERIOD  &kp SLASH  &kp CAPSLOCK
-                                     &trans        &trans        &trans          &trans        &trans   &kp RIGHT_ALT
+&trans              &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7   &kp N8         &kp N9      &kp N0     &trans
+&lt 3 LEFT_CONTROL  &mt A F1       &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7   &kp F8         &kp F9      &lt 2 F10  &lt 3 SQT
+&trans              &kp LG(LA(Z))  &kp LG(X)     &kp LG(C)     &kp LG(V)     &none           &kp F11       &kp F12  &kp COMMA      &kp PERIOD  &kp SLASH  &kp CAPSLOCK
+                                                 &trans        &trans        &trans          &trans        &trans   &kp RIGHT_ALT
             >;
         };
 
