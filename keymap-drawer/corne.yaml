@@ -99,7 +99,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LEFT CONTROL, h: extended}
   - {t: F1, h: A, type: held}
   - F2
   - F3
@@ -142,7 +142,7 @@ layers:
   - F9
   - ''
   - {t: base, h: toggle}
-  - {t: symbols_nav, h: toggle}
+  - {t: symbols_nav, h: toggle, type: held}
   - {t: PREV, type: held}
   - NEXT
   - MUTE
@@ -153,7 +153,7 @@ layers:
   - F5
   - F6
   - {t: ;, h: nums_shortcuts}
-  - {t: '''', h: extended, type: held}
+  - {t: '''', h: extended}
   - {t: nums_shortcuts, h: toggle}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
