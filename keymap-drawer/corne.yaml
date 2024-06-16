@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT COMMAND
-  - {t: TAB, h: symbols_nav}
+  - {t: BACKSPACE, h: symbols_nav}
   - SPACE
   - ENTER
-  - {t: BACKSPACE, h: symbols_nav}
+  - {t: TAB, h: symbols_nav}
   - RIGHT ALT
   symbols_nav:
   - {t: ▽, type: trans}
