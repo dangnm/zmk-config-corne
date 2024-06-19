@@ -127,7 +127,7 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: TAB, h: symbols_nav}
+  - {t: TAB, h: '4'}
   - RIGHT ALT
   extended:
   - {t: base, h: toggle}
@@ -174,44 +174,44 @@ layers:
   - ''
   '4':
   - {t: ▽, type: trans}
-  - Q
+  - '!'
+  - '@'
+  - '{'
+  - '}'
+  - '|'
+  - '='
+  - +
+  - '-'
+  - _
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '#', type: held}
+  - $
+  - (
+  - )
+  - '`'
+  - LEFT
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - {t: ':', h: nums_shortcuts}
+  - {t: '''', h: nums_shortcuts}
+  - LEFT SHIFT
+  - '%'
+  - ^
+  - '['
+  - ']'
+  - '~'
+  - '&'
+  - \
+  - ''''
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BACKSPACE, type: held}
+  - RIGHT ALT
