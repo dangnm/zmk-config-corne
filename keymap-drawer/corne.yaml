@@ -127,7 +127,7 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: TAB, h: symbols_nav}
   - RIGHT ALT
   extended:
   - {t: base, h: toggle}
