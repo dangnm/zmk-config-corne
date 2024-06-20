@@ -68,7 +68,7 @@
         };
 
         layer_4 {
-            label = "L1";
+            label = "L4";
             bindings = <
 &trans          &kp EXCLAMATION  &kp AT_SIGN  &kp LBRC              &kp RIGHT_BRACE        &kp PIPE     &kp EQUAL      &kp PLUS              &kp MINUS      &kp UNDERSCORE     &kp ASTERISK  &trans
 &trans          &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE    &kp LEFT       &kp DOWN_ARROW        &kp UP_ARROW   &kp RIGHT_ARROW    &lt 2 COLON   &lt 2 SQT
