@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - '&soft_off'
   - LEFT CONTROL
   - {t: A, h: nums_shortcuts}
   - S
