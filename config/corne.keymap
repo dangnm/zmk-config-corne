@@ -11,11 +11,9 @@
 
 #define TAPPING_TERM 200
 
-/delete-property/ {
-    split-peripheral-off-on-press;};
+&soft_off { hold-time-ms = <5000>; };
 
-/
-
+/ {
     behaviors {
         /*
     * td_lock groups locking functions into one key:
