@@ -11,8 +11,6 @@
 
 #define TAPPING_TERM 200
 
-&soft_off { hold-time-ms = <5000>; };
-
 / {
     behaviors {
         /*
