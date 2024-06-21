@@ -143,8 +143,8 @@ layers:
   - ''
   - {t: base, h: toggle}
   - {t: symbols_nav, h: toggle, type: held}
-  - {t: PREV, type: held}
-  - NEXT
+  - {t: BT DISC, h: '0', type: held}
+  - {t: BT DISC, h: '1'}
   - MUTE
   - VOL DN
   - VOL UP
