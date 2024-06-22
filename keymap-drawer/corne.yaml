@@ -87,7 +87,7 @@ layers:
   - BACKSPACE
   - RIGHT ALT
   nums_shortcuts:
-  - {t: ▽, type: trans}
+  - '0'
   - '1'
   - '2'
   - '3'
