@@ -133,12 +133,12 @@ layers:
   - {t: base, h: toggle}
   - PLAY PAUSE
   - ''
-  - ''
+  - Sft+Gui+ 4
   - ''
   - BT CLR
   - Sft+Gui+ 4
   - F7
-  - F8
+  - Sft+Gui+ 4
   - F9
   - ''
   - {t: base, h: toggle}
