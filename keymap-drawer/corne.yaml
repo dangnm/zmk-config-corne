@@ -55,7 +55,7 @@ layers:
   - '-'
   - _
   - '*'
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - '#'
   - $
