@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT COMMAND}
   - RIGHT SHIFT
   - LEFT COMMAND
   - {t: BACKSPACE, h: symbols_nav}
