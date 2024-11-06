@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: nums_shortcuts}
   - {t: '''', h: nums_shortcuts}
   - LEFT SHIFT
-  - Z
+  - {t: Z, h: LEFT WIN}
   - X
   - C
   - V
